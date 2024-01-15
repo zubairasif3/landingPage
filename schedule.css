@@ -1,0 +1,211 @@
+body {
+    background-image: url(./fpimages/Stars-vertical-repeating.jpg);
+    
+}
+
+.header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'roboto';
+    font-weight: bold;
+    color: #11193F;
+    background-color: #FFDD17;
+    height: 50px;
+    align-items: center;
+ 
+}
+ 
+.hero {
+    display:flex;
+    flex-direction: row;
+    height:250px;
+    align-items: center;
+    justify-content:space-evenly;
+}
+ 
+.sfa1 {
+    scale: 22%;
+    margin: -300px;
+}
+ 
+#year {
+    color:white;
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 20;
+}
+
+.City {
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h4 {
+    color: white;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Introduction {
+    width: 50%;
+    padding: 1%;
+}
+
+.Floorplan {
+    display: flex;
+    justify-content: center;
+}
+
+.Schedule {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
+/* footer-section style */
+
+.footer-section{
+    background-color: #fff;
+    color: #000;
+    min-height: 100px;
+    padding: 24px 10px 16px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.footer-section a{
+    color: inherit;
+    text-decoration: none;
+}
+.footer-section .flex-box{
+    font-size: 17px;
+}
+.footer-section .container{
+    padding: 0px 50px;
+}
+.footer-section .flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+.footer-section .flex-box>*{
+    flex-shrink: 0;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.footer-section .flex-box .flex-6{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.footer-section .footer-logo{
+    max-width: 140px;
+}
+.footer-section .footer-contact-info{
+   max-width: 400px;
+   margin: auto;
+   height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer-section .contact-flex{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+.footer-section .contact-flex.align-items-center{
+    align-items: center;
+}
+.footer-section .contact-flex .address-text{
+    font-size: 16px;
+}
+.footer-section .contact-flex .address-text strong{
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.footer-section .contact-flex .contact-icon{
+    width: 30px;
+    height: 30px;
+}
+.footer-section .footer-link{
+    margin-top: 12px;
+}
+.footer-section .footer-links a{
+    display: inline-block;
+}
+.footer-section .footer-socil-links{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.footer-section .footer-socil-links .social-flex{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 12px;
+}
+.footer-section .footer-socil-links .social-flex img{
+    width: 35px;
+}
+
+.footer-section .footer-copyright {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+@media screen and (max-width:767px) {
+
+    .footer-section .flex-box> *{
+        margin-bottom: 20px !important;
+    }
+    .footer-section .container{
+        padding: 0px 20px;
+    }
+
+    .footer-section .flex-box .flex-3,
+    .footer-section .flex-box .flex-6{
+        width: 100%;
+        margin-bottom: 12px !important;
+    }
+    .footer-section .footer-logo{
+        max-width: 140px;
+    }
+    .footer-section .footer-contact-info{
+        max-width: 100%;
+    }
+    .footer-section .footer-socil-links{
+        margin-top: 10px;
+    }
+    .footer-section .contact-flex .address-text{
+        max-width: 450px;
+    }
+}
